@@ -60,7 +60,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://t.me/Anime_Headquarter")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://t.me/Anime_Headquarters")
                             ]
                         ]
                     ),
@@ -106,7 +106,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>Something Went Wrong</i> <b> <a href='http://t.me/Anime Headquarter'>CLICK HERE FOR SUPPORT </a></b>",
+                    text="<i>Something Went Wrong</i> <b> <a href='http://t.me/Anime_Headquarters'>CLICK HERE FOR SUPPORT </a></b>",
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
@@ -197,13 +197,10 @@ Send me any file and get a direct download link and streamable link.!""",
 
         msg_text ="""
 <i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>
-<b>📂 𝖥𝖨𝖫𝖤 𝖭𝖠𝖬𝖤 :</b> <i>{}</i>
-
-<b>📦 𝖥𝖨𝖫𝖤 𝖲𝖨𝖹𝖤 :</b> <i>{}</i>
-
-<b>📥 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 :</b> <i>{}</i>
-
-<b>📺 𝖶𝖠𝖳𝖢𝖧 :</b> <i>{}</i>
+📂 𝖥𝖨𝖫𝖤 𝖭𝖠𝖬𝖤 : <i>{}</i>
+📦 𝖥𝖨𝖫𝖤 𝖲𝖨𝖹𝖤 : <i>{}</i>
+📥 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 : <i>{}</i>
+📺 𝖶𝖠𝖳𝖢𝖧 : <i>{}</i>
 
 <b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE</b>
 """
