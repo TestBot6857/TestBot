@@ -35,12 +35,12 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [Adarsh Goel](https://github.com/code-x-mania)",
+                    text="I am Coded By @Anime Headquarter",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://t.me/adarsh_goel")
+                                InlineKeyboardButton("Developer", url=f"https://t.me/adarsh_goel")
                             ]
                         ]
                     ),
@@ -60,7 +60,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/CODE-X-MANIA")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://t.me/Anime Headquarter")
                             ]
                         ]
                     ),
@@ -91,7 +91,7 @@ async def start(b, m):
             except UserNotParticipant:
                  await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
+                    photo="https://telegra.ph/file/814014240fc37d01e305f.jpg",
                     caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -106,13 +106,13 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/codexmaniabot'>CLICK HERE FOR SUPPORT </a></b>",
+                    text="<i>Something Went Wrong</i> <b> <a href='http://t.me/Anime Headquarter'>CLICK HERE FOR SUPPORT </a></b>",
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
         await StreamBot.send_photo(
             chat_id=m.chat.id,
-            photo ="https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png",
+            photo ="https://telegra.ph/file/70bf5a29651ca90d95d7e.jpg",
             caption ="""Hi !
 I am Telegram File to Link Generator Bot with Channel support.
 Send me any file and get a direct download link and streamable link.!""",
@@ -128,7 +128,7 @@ Send me any file and get a direct download link and streamable link.!""",
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="**Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Qᴜɪᴄᴋʟʏ ᴄᴏɴᴛᴀᴄᴛ** @codexmaniachat",
+                        text="**Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Qᴜɪᴄᴋʟʏ ᴄᴏɴᴛᴀᴄᴛ** ",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -136,7 +136,7 @@ Send me any file and get a direct download link and streamable link.!""",
             except UserNotParticipant:
                 await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo="https://i.ibb.co/ys3Tgpk/mtzijuhd-0.png",
+                    photo="https://telegra.ph/file/814014240fc37d01e305f.jpg",
                     caption="**Pʟᴇᴀsᴇ Jᴏɪɴ  Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs Bᴏᴛ**!\n\n**Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ**!",
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -155,7 +155,7 @@ Send me any file and get a direct download link and streamable link.!""",
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [ADARSH GOEL](https://t.me/codexmaniabot)",
+                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** ",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -197,13 +197,13 @@ Send me any file and get a direct download link and streamable link.!""",
 
         msg_text ="""
 <i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>
+<b>📂 𝖥𝖨𝖫𝖤 𝖭𝖠𝖬𝖤 :</b> <i>{}</i>
 
-<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>
+<b>📦 𝖥𝖨𝖫𝖤 𝖲𝖨𝖹𝖤 :</b> <i>{}</i>
 
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
+<b>📥 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 :</b> <i>{}</i>
 
-<b> 🖥WATCH  :</b> <i>{}</i>
+<b>📺 𝖶𝖠𝖳𝖢𝖧 :</b> <i>{}</i>
 
 <b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE</b>
 """
@@ -211,8 +211,8 @@ Send me any file and get a direct download link and streamable link.!""",
         await m.reply_text(
             text=msg_text.format(file_name, file_size, online_link, stream_link),
             parse_mode="HTML",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥STREAM", url=stream_link), #Stream Link
-                                                InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ📥', url=online_link)]]) #Download Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("STREAM", url=stream_link), #Stream Link
+                                                InlineKeyboardButton('DOWNLOAD', url=online_link)]]) #Download Link
         )
 
 
@@ -238,7 +238,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://i.ibb.co/ys3Tgpk/mtzijuhd-0.png",
+                photo="https://telegra.ph/file/814014240fc37d01e305f.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -253,7 +253,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [ADARSH GOEL](https://t.me/codexmaniachat).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ .",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -264,8 +264,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/codexmania")],
-                [InlineKeyboardButton("💥 FOLLOW", url="https://GitHub.com/code-x-mania")]
+                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/Anime Headquarter")],
+                [InlineKeyboardButton("💥 FOLLOW", url="https://t.me/{var.UPDATES_CHANNAL}")]
             ]
         )
     )
